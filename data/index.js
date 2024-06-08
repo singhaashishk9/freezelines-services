@@ -380,7 +380,7 @@ export const FooterInfo = [
 export const FooterWidgets = {
   about: {
     title: "About Freezelines Services India Pvt.Ltd.",
-    text: "At Lennom, We don’t just provide resi-dential and commercial heating and air conditioning services; we make people’s lives easier. Better.",
+    text: "At Freezelines Services, We don’t just provide resi-dential and commercial heating and air conditioning services; we make people’s lives easier. Better.",
     tagLine: "Get a Quote",
     phone: "666 888 000"
   },
@@ -401,28 +401,28 @@ export const FooterWidgets = {
       },
       {
         lable: "About Us",
-        url: "#"
+        url: "/about"
       }
     ]
   },
   linkTwo: {
     menu: [
-      {
-        lable: "Careers",
-        url: "#"
-      },
+      // {
+      //   lable: "Careers",
+      //   url: "#"
+      // },
       {
         lable: "Privacy Policy",
         url: "#"
       },
-      {
-        lable: "Change Location",
-        url: "#"
-      },
-      {
-        lable: "Expert Tips",
-        url: "#"
-      },
+      // {
+      //   lable: "Change Location",
+      //   url: "#"
+      // },
+      // {
+      //   lable: "Expert Tips",
+      //   url: "#"
+      // },
       {
         lable: "Terms & Conditions",
         url: "#"
