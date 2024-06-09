@@ -1,13 +1,37 @@
 // pages/_document.js
+// eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+// eslint-disable-next-line @next/next/no-script-in-document
+import Script from 'next/script';
 
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
+         {/* Google tag (gtag.js) */}
+         {/* Google Analytics */}
+         <Script
+            strategy="afterInteractive"
+            src="https://www.googletagmanager.com/gtag/js?id=G-LWYF3L6G2M"
+          />
+          <Script
+            id="google-analytics"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-LWYF3L6G2M');
+              `,
+            }}
+          />
           {/* Google Tag Manager */}
-          <script
+          <Script
+           id="gtm-script"
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
