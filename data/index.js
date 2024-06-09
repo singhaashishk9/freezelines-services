@@ -22,20 +22,20 @@ export const NavLinksData = [
     name: "About",
     url: "/about"
   },
-  {
-    name: "Services",
-    url: "/services",
-    // subItems: [
-    //   {
-    //     name: "Services",
-    //     url: "/service"
-    //   },
-    //   {
-    //     name: "Service Details",
-    //     url: "/service-details"
-    //   }
-    // ]
-  },
+  // {
+  //   name: "Services",
+  //   url: "/services",
+  //   subItems: [
+  //     {
+  //       name: "Services",
+  //       url: "/service"
+  //     },
+  //     {
+  //       name: "Service Details",
+  //       url: "/service-details"
+  //     }
+  //   ]
+  // },
   // {
   //   name: "Blog",
   //   url: "/blog",
@@ -66,7 +66,7 @@ export const TopbarInfos = [
   {
     icon: "icon-phone-call",
     tagLine: "Call Now",
-    text: "666 888 000",
+    text: "+91 7798486823",
     url: "tel:666-888-000"
   },
   {
@@ -148,7 +148,7 @@ export const FeatureOneData = [
   },
   {
     icon: "icon-mechanic",
-    title: "8 Years Experience"
+    title: "3 Years Experience"
   }
 ];
 
@@ -156,7 +156,7 @@ export const AboutOneData = {
   title: "Heating and air conditioning repair and installation company",
   tagLine: "Welcome to Freezelines Services India Pvt.Ltd.",
   content:
-    "There are many variations of passages of lorem ipsum available, but the majorify have suffered alteration in some form by injected humour, or randmised words which don't look even slightly believable.",
+    "Freezelines Services India Pvt Ltd is a trusted and established provider of comprehensive chiller services, repair, and spare parts supply. With a strong commitment to excellence and a team of highly trained engineers, we have been serving the cooling needs of industries  across India for several years",
   button: {
     url: "/about",
     label: "LEARN MORE"
@@ -166,6 +166,9 @@ export const AboutOneData = {
 import serviceImage1 from "@/images/services/service-1.jpg";
 import serviceImage2 from "@/images/services/service-2.jpg";
 import serviceImage3 from "@/images/services/service-3.jpg";
+import serviceImage4 from "@/images/services/service-4.jpg";
+import serviceImage5 from "@/images/services/service-5.jpg";
+import serviceImage6 from "@/images/services/service-6.jpg";
 
 export const ServiceOneData = {
   title: "Our services",
@@ -173,8 +176,8 @@ export const ServiceOneData = {
     {
       image: serviceImage1,
       icon: "icon-snow",
-      title: "Cooling Services",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
+      title: "Adiabatic System Installation for AirCooled Chillers",
+      text: "Enhance the efficiency of your air-cooled chillers with our professional adiabatic system installation, ensuring optimal cooling performance and energy savings.",
       button: {
         label: "LEARN MORE",
         url: "/service-details"
@@ -183,8 +186,8 @@ export const ServiceOneData = {
     {
       image: serviceImage2,
       icon: "icon-fire",
-      title: "Heating Services",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
+      title: "Commissioning and Start-up for Chillers",
+      text: "Ensure seamless operation of your chillers with our comprehensive commissioning and start-up services, designed for optimal performance",
       button: {
         label: "LEARN MORE",
         url: "/service-details"
@@ -193,13 +196,44 @@ export const ServiceOneData = {
     {
       image: serviceImage3,
       icon: "icon-ac",
-      title: "Other Services",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
+      title: "Pump & Motor Repairing Service",
+      text: "Restore the efficiency of your systems with our expert pump and motor repairing services, ensuring reliable performance and extended equipment life.",
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+    {
+      image: serviceImage4,
+      icon: "icon-ac",
+      title: "Air Conditioner Installation Service",
+      text: "Experience superior comfort with our professional air conditioner installation services, tailored to meet your cooling needs efficiently.",
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+    {
+      image: serviceImage5,
+      icon: "icon-ac",
+      title: "Air-Cooled Chiller Epoxy Coating",
+      text: "Protect and extend the life of your air-cooled chillers with our durable epoxy coating, providing superior resistance to corrosion and environmental damage.",
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+    {
+      image: serviceImage6,
+      icon: "icon-ac",
+      title: "Chilled Water System Maintenance",
+      text: "Ensure the reliability and efficiency of your chilled water systems with our comprehensive maintenance services, designed to prevent issues and optimize performance.",
       button: {
         label: "LEARN MORE",
         url: "/service-details"
       }
     }
+    
   ]
 };
 
@@ -291,47 +325,47 @@ export const TestimonialOneData = {
   title: "Testimonials",
   posts: [
     {
-      image: testimonial1,
+      image: null,
       content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Della Barnett",
-      designation: "CEO"
+        "At Freezelines Services India Pvt Ltd, our vision is to be the premier provider of chiller services and solutions in India, recognized for our unwavering commitment to excellence, innovation, and customer satisfaction",
+      name: "VISION",
+      designation: ""
     },
-    {
-      image: testimonial2,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Max Dunn",
-      designation: "Developer"
-    },
-    {
-      image: testimonial3,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Alberta Potter",
-      designation: "Director"
-    },
-    {
-      image: testimonial1,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Della Barnett",
-      designation: "CEO"
-    },
-    {
-      image: testimonial2,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Max Dunn",
-      designation: "Developer"
-    },
-    {
-      image: testimonial3,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Alberta Potter",
-      designation: "Director"
-    }
+    // {
+    //   image: testimonial2,
+    //   content:
+    //     "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+    //   name: "Max Dunn",
+    //   designation: "Developer"
+    // },
+    // {
+    //   image: testimonial3,
+    //   content:
+    //     "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+    //   name: "Alberta Potter",
+    //   designation: "Director"
+    // },
+    // {
+    //   image: testimonial1,
+    //   content:
+    //     "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+    //   name: "Della Barnett",
+    //   designation: "CEO"
+    // },
+    // {
+    //   image: testimonial2,
+    //   content:
+    //     "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+    //   name: "Max Dunn",
+    //   designation: "Developer"
+    // },
+    // {
+    //   image: testimonial3,
+    //   content:
+    //     "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+    //   name: "Alberta Potter",
+    //   designation: "Director"
+    // }
   ]
 };
 
@@ -366,8 +400,8 @@ export const FooterInfo = [
   {
     icon: "icon-contact",
     tagLine: "Email",
-    text: "help@loazzne.com",
-    url: "mailto:help@loazzne.com"
+    text: "customersupport@freezelinesservices.com",
+    url: "mailto:customersupport@freezelinesservices.com"
   },
   {
     icon: "icon-clock",
@@ -382,7 +416,7 @@ export const FooterWidgets = {
     title: "About Freezelines Services India Pvt.Ltd.",
     text: "At Freezelines Services, We don’t just provide resi-dential and commercial heating and air conditioning services; we make people’s lives easier. Better.",
     tagLine: "Get a Quote",
-    phone: "666 888 000"
+    phone: "+91 7798486823"
   },
   linkOne: {
     title: "Quick Links",
@@ -439,34 +473,34 @@ import blog5 from "@/images/blog/blog-5.jpg";
 import blog6 from "@/images/blog/blog-6.jpg";
 
 export const BlogOneData = {
-  title: "Our latest news",
+  title: "Our Goals",
   posts: [
     {
       image: blog1,
-      date: "07 Nov",
-      author: "admin",
-      commentCount: 3,
-      title: "How does a ductless heat pump work?",
+      date: "",
+      author: "",
+      commentCount: null,
+      title: "Customer Satisfaction",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "Ensuring high levels of customer satisfaction by providing quality chiller services, repairs, and maintenance that meet or exceed client expectations."
     },
     {
       image: blog2,
-      date: "07 Nov",
-      author: "admin",
-      commentCount: 3,
-      title: "Simple hack to improve A/C efficiency",
+      date: "",
+      author: "",
+      commentCount: null,
+      title: "Quality of Service",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "Delivering reliable and efficient service that minimizes downtime for clients and maximizes the lifespan and performance of their cooling equipment"
     },
     {
       image: blog3,
-      date: "07 Nov",
-      author: "admin",
-      commentCount: 3,
-      title: "Preparing your home before vacation",
+      date: "",
+      author: "",
+      commentCount: null,
+      title: "Long-Term Partnerships",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "Building and maintaining long-term partnerships and relationships with clients, suppliers, and stakeholders."
     }
   ]
 };
@@ -475,7 +509,7 @@ export const BlogTwoData = {
   posts: [
     {
       image: blog1,
-      date: "07 Nov",
+      date: "",
       author: "admin",
       commentCount: 3,
       title: "How does a ductless heat pump work?",
@@ -484,7 +518,7 @@ export const BlogTwoData = {
     },
     {
       image: blog2,
-      date: "07 Nov",
+      date: "",
       author: "admin",
       commentCount: 3,
       title: "Simple hack to improve A/C efficiency",
@@ -493,7 +527,7 @@ export const BlogTwoData = {
     },
     {
       image: blog3,
-      date: "07 Nov",
+      date: "",
       author: "admin",
       commentCount: 3,
       title: "Preparing your home before vacation",
@@ -502,7 +536,7 @@ export const BlogTwoData = {
     },
     {
       image: blog4,
-      date: "07 Nov",
+      date: "",
       author: "admin",
       commentCount: 3,
       title: "Heating and cooling safety issues",
@@ -511,7 +545,7 @@ export const BlogTwoData = {
     },
     {
       image: blog5,
-      date: "07 Nov",
+      date: "",
       author: "admin",
       commentCount: 3,
       title: "Don’t neglect your outdoor unit",
@@ -520,7 +554,7 @@ export const BlogTwoData = {
     },
     {
       image: blog6,
-      date: "07 Nov",
+      date: "",
       author: "admin",
       commentCount: 3,
       title: "Have your system professionally inspected",
@@ -536,7 +570,7 @@ export const VideoOneData = {
 };
 
 export const AboutTwoData = {
-  caption: " 20 <span>years experience</span> ",
+  caption: " 3 <span>years experience</span> ",
   blockTitle: {
     title:
       "We are trusted source of ac and heating maintenance repairs company",
@@ -563,8 +597,8 @@ export const AboutTwoData = {
     }
   ],
   offer: {
-    tagline: "10% off",
-    text: "on our all services for senior citizens."
+    tagline: "",
+    text: "on our all services for precious customers."
   }
 };
 
@@ -574,7 +608,7 @@ import team3 from "@/images/team/team-3.jpg";
 import team4 from "@/images/team/team-4.jpg";
 
 export const TeamOneData = {
-  title: "Meet The Team",
+  title: "Our Customers",
   posts: [
     {
       image: team1,
@@ -661,7 +695,7 @@ export const AboutThreeData = {
     title: "Experience quality air conditioning service in broklyn new york"
   },
   summery:
-    "There are many variations of passages of lorem ipsum available, but the majorify have suffered alteration in some form by injected humour, or randmised words which don't look even slightly believable.",
+    "Freezelines Services India Pvt Ltd is a trusted and established provider of comprehensive chiller services, repair, and spare parts supply. With a strong commitment to excellence and a team of highly trained engineers, we have been serving the cooling needs of industries across India for several years",
   button: {
     lable: "LEARN MORE",
     url: "/about"
@@ -682,9 +716,9 @@ export const AboutFourData = {
   blockTitle: {
     title: "We are trusted by more than <span>8900</span> clients",
     text1:
-      "Tincidunt elit magnis nulla facilisis sagittis is maecenas. Sapien nunced amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.",
+      "Freezelines Services India Pvt Ltd is a trusted and established provider of comprehensive chiller services, repair, and spare parts supply. With a strong commitment to excellence and a team of highly trained engineers, we have been serving the cooling needs of industries across India for several years.",
     text2:
-      "Lorem ipsum dolors sit amet elit magnis amet ultrices purusrfed aliquet. There are many varia-tions of passages of available but the majarity have suffered."
+      "At Freezelines Services India Pvt Ltd, our vision is to be the premier provider of chiller services and solutions in India, recognized for our unwavering commitment to excellence, innovation, and customer satisfaction."
   }
 };
 
@@ -708,7 +742,7 @@ export const BenefitOneData = {
     },
     {
       icon: "icon-mechanic",
-      title: "8 Years Experience",
+      title: "3 Years Experience",
       text: "There are many passages of lorem ipsum available but the majority have alteration."
     }
   ]
@@ -775,7 +809,7 @@ export const ServiceSidebarOtherData = [
     title: "Other Services",
     content: {
       icon: "icon-support",
-      title: "<span>Contact with us </span>666 888 000"
+      title: "<span>Contact with us </span>+91 7798486823"
     }
   },
   {
@@ -783,7 +817,7 @@ export const ServiceSidebarOtherData = [
     title: "Commercial Services",
     content: {
       icon: "icon-building",
-      title: "<span>Contact with us </span>666 888 000"
+      title: "<span>Contact with us </span>+91 7798486823"
     }
   }
 ];

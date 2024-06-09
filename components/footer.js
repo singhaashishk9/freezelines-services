@@ -65,7 +65,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-8 col-sm-6 copyright_text">
                 <p>
-                  &copy; copyright {new Date().getFullYear()} by Layerdrops.com
+                  &copy; copyright {new Date().getFullYear()} by thetidbit.in
                 </p>
               </div>
               <div className="col-md-4 col-sm-6 copyright_social text-end">

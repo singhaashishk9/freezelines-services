@@ -30,7 +30,7 @@ const HomeOne = () => {
         <TestimonialsOne />
         {/* <SponsorOne /> */}
         <CtaTwo />
-        {/* <BlogOne /> */}
+        <BlogOne />
         <ContactOne />
         <Footer />
       </Layout>
