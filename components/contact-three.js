@@ -12,19 +12,19 @@ const ContactThree = () => {
                 <h1>We offer 24/7 emergency service to all of our customers</h1>
               </div>
               <p>
-                There are many variations of passages of new lorem ipsum
-                available, but the majority have suffered.
+                {/* There are many variations of passages of new lorem ipsum
+                available, but the majority have suffered. */}
               </p>
               <div className="contact_location_box">
                 <div className="contact_location_map">
                   <span className="icon-location"></span>
-                  <p>7TH,B-13,Flat No.704,Orchid Square,<br />Jambhul Kalyan,Near South Indian College,<br /> Chikholi,Naya Ambarnath - 421505
+                  <p>Orchid Square,<br /><br /> Thane
                   </p>
                 </div>
                 <div className="contact_location_map contact_location_call">
                   <span className="icon-contact_call"></span>
                   <p>
-                    customersupport@freezelinesservices.com <br />
+                    support@freezelinesservices.com <br />
                     +91 7798486823
                   </p>
                 </div>

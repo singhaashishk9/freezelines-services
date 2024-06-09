@@ -14,10 +14,10 @@ const ContactTwo = () => {
                 </h1>
               </div>
               <p>
-                There are many variations of passages of new lorem ipsum
+                {/* There are many variations of passages of new lorem ipsum
                 available, but the majority have suffered alteration in some
                 form by injected humour, or randomised words which don&apos;t
-                look even slightly believable.
+                look even slightly believable. */}
               </p>
             </div>
           </div>
