@@ -11,9 +11,16 @@ import "@/css/font-awesome.min.css";
 import "@/css/fontello.css";
 import "@/css/style.css";
 import "@/css/responsive.css";
+import {useEffect} from 'react';
+
+import TagManager from 'react-gtm-module';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-PMB4SW2J' });
+  }, []);
+
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
