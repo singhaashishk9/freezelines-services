@@ -27,7 +27,7 @@ const ServiceOne = () => {
                   <Link href={button.url}>
                     <h2>{title}</h2>
                   </Link>
-                  <p>{text}</p>
+                  <p>{text.substring(0,140)}</p>
                   <Link href={button.url} className="btn-yellow">
                     {button.label}
                   </Link>

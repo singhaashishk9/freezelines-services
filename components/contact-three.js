@@ -24,8 +24,8 @@ const ContactThree = () => {
                 <div className="contact_location_map contact_location_call">
                   <span className="icon-contact_call"></span>
                   <p>
-                    help@loazzne.com <br />
-                    666 888 000
+                    customersupport@freezelinesservices.com <br />
+                    +91 7798486823
                   </p>
                 </div>
               </div>

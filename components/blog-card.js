@@ -11,10 +11,10 @@ const BlogCard = ({ data }) => {
         <span className="blog_date">{date}</span>
       </div>
       <div className="blog_share_details">
-        <span className="comment_author">
+        {author && commentCount && (<span className="comment_author">
           by <Link href={url}>{author}</Link> -{" "}
           <Link href={url}>{commentCount} Comments</Link>
-        </span>
+        </span>)}
         <h1>
           <Link href={url}>{title}</Link>
         </h1>

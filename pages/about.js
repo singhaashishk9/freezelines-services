@@ -18,11 +18,11 @@ const About = () => {
         <HeaderOne />
         <PageHeader title="About Us" name="About" />
         <AboutFour />
-        <VideoOne />
+        {/* <VideoOne /> */}
         <AboutTwo />
-        <TestimonialsOne />
+        {/* <TestimonialsOne /> */}
         <TeamOne extraClassName="section_border" />
-        <SponsorOne />
+        {/* <SponsorOne /> */}
         <Footer />
       </Layout>
     </MenuContextProvider>

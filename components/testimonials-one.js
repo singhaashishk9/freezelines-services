@@ -42,7 +42,7 @@ const TestimonialsOne = () => {
           {posts.map(({ image, name }, index) => (
             <SwiperSlide key={index}>
               <div className="testi-thumb-img">
-                <Img src={image} alt={name} layout="responsive" />
+                {image && <Img src={image} alt={name} layout="responsive" />}
               </div>
             </SwiperSlide>
           ))}
