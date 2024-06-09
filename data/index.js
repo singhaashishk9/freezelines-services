@@ -32,7 +32,7 @@ export const NavLinksData = [
   //     },
   //     {
   //       name: "Service Details",
-  //       url: "/service-details"
+  //       url: "/#"
   //     }
   //   ]
   // },
@@ -60,7 +60,7 @@ export const TopbarInfos = [
   {
     icon: "icon-placeholder",
     tagLine: "Address",
-    text: "7TH,B-13,Flat No.704,Orchid Square, Ambarnath - 421505",
+    text: "Orchid Square, Thane",
     url: "#"
   },
   {
@@ -84,7 +84,7 @@ import slideOneImage3 from "@/images/slider/slider-3.jpg";
 export const SlideOneData = [
   {
     backgroundImage: slideOneImage1,
-    title: "Heating and Air Conditioning Specialist",
+    title: "HVAC Maintenance Specialist",
     text: "Choose the Best Company",
     button: "GET A FREE QUOTE",
     url: "/contact"
@@ -130,10 +130,10 @@ export const SlideTwoData = [
 ];
 
 export const FeatureOneData = [
-  {
-    icon: "icon-wallet",
-    title: "No Upfront Payments"
-  },
+  // {
+  //   icon: "icon-wallet",
+  //   title: "No Upfront Payments"
+  // },
   {
     icon: "icon-diploma",
     title: "Satisfaction Guarantee"
@@ -180,7 +180,7 @@ export const ServiceOneData = {
       text: "Enhance the efficiency of your air-cooled chillers with our professional adiabatic system installation, ensuring optimal cooling performance and energy savings.",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
+        url: "/#"
       }
     },
     {
@@ -190,7 +190,7 @@ export const ServiceOneData = {
       text: "Ensure seamless operation of your chillers with our comprehensive commissioning and start-up services, designed for optimal performance",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
+        url: "/#"
       }
     },
     {
@@ -200,7 +200,7 @@ export const ServiceOneData = {
       text: "Restore the efficiency of your systems with our expert pump and motor repairing services, ensuring reliable performance and extended equipment life.",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
+        url: "/#"
       }
     },
     {
@@ -210,7 +210,7 @@ export const ServiceOneData = {
       text: "Experience superior comfort with our professional air conditioner installation services, tailored to meet your cooling needs efficiently.",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
+        url: "/#"
       }
     },
     {
@@ -220,7 +220,7 @@ export const ServiceOneData = {
       text: "Protect and extend the life of your air-cooled chillers with our durable epoxy coating, providing superior resistance to corrosion and environmental damage.",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
+        url: "/#"
       }
     },
     {
@@ -230,7 +230,7 @@ export const ServiceOneData = {
       text: "Ensure the reliability and efficiency of your chilled water systems with our comprehensive maintenance services, designed to prevent issues and optimize performance.",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
+        url: "/#"
       }
     }
     
@@ -394,14 +394,14 @@ export const FooterInfo = [
   {
     icon: "icon-placeholder",
     tagLine: "Address",
-    text: "7TH,B-13,Flat No.704,Orchid Square, Jambhul Kalyan,Near South Indian College, Chikholi,Naya Ambarnath - 421505",
+    text: "Orchid Square, Thane",
     url: "#"
   },
   {
     icon: "icon-contact",
     tagLine: "Email",
-    text: "customersupport@freezelinesservices.com",
-    url: "mailto:customersupport@freezelinesservices.com"
+    text: "support@freezelinesservices.com",
+    url: "mailto:support@freezelinesservices.com"
   },
   {
     icon: "icon-clock",
@@ -573,7 +573,7 @@ export const AboutTwoData = {
   caption: " 3 <span>years experience</span> ",
   blockTitle: {
     title:
-      "We are trusted source of ac and heating maintenance repairs company",
+      "We are reliable partner for chiller maintenance, repairs, and comprehensive HVAC solutions.",
     tagline: "Why choose us"
   },
   lists: [
@@ -581,16 +581,16 @@ export const AboutTwoData = {
       text: " Unmatched performance, satisfaction service guarantees"
     },
     {
-      text: " Home protection through our shoe covers and mats"
+      text: " Experts in chiller maintenance, repairs, and HVAC solutions."
     },
     {
-      text: " Upfront, flat rate pricing—no overtime charges"
+      text: " Utilizing the latest tools for efficient, long-lasting repairs."
     },
     {
-      text: " 24 / 7 availability for all emergency services"
+      text: " Personalized service with a commitment to your satisfaction."
     },
     {
-      text: " Fixed right promise—done right or it’s free"
+      text: " Professionals delivering reliable service."
     },
     {
       text: " Clear communication and updates on service arrival"
@@ -598,7 +598,7 @@ export const AboutTwoData = {
   ],
   offer: {
     tagline: "",
-    text: "on our all services for precious customers."
+    text: "Delivering top-notch services to our valued customers."
   }
 };
 
@@ -612,78 +612,59 @@ export const TeamOneData = {
   posts: [
     {
       image: team1,
-      name: "Effie Green",
-      designation: "Manager",
+      name: "IIT Bombay",
+      designation: "",
       social: [
-        {
-          icon: "fa-facebook",
-          url: "#"
-        },
-        {
-          icon: "fa-twitter",
-          url: "#"
-        },
-        {
-          icon: "fa-youtube-play",
-          url: "#"
-        }
+        // {
+        //   icon: "fa-facebook",
+        //   url: "#"
+        // },
+        // {
+        //   icon: "fa-twitter",
+        //   url: "#"
+        // },
+        // {
+        //   icon: "fa-youtube-play",
+        //   url: "#"
+        // }
       ]
     },
     {
       image: team2,
-      name: "Catherine Lane",
-      designation: "Worker",
+      name: "Nirmal Seeds Pvt. Ltd.",
+      designation: "",
       social: [
-        {
-          icon: "fa-facebook",
-          url: "#"
-        },
-        {
-          icon: "fa-twitter",
-          url: "#"
-        },
-        {
-          icon: "fa-youtube-play",
-          url: "#"
-        }
+        // {
+        //   icon: "fa-facebook",
+        //   url: "#"
+        // },
+        // {
+        //   icon: "fa-twitter",
+        //   url: "#"
+        // },
+        // {
+        //   icon: "fa-youtube-play",
+        //   url: "#"
+        // }
       ]
     },
     {
       image: team3,
-      name: "Augusta Wells",
-      designation: "Developer",
+      name: "BASF Chemicals India Pvt Ltd",
+      designation: "",
       social: [
-        {
-          icon: "fa-facebook",
-          url: "#"
-        },
-        {
-          icon: "fa-twitter",
-          url: "#"
-        },
-        {
-          icon: "fa-youtube-play",
-          url: "#"
-        }
-      ]
-    },
-    {
-      image: team4,
-      name: "Kyle Fuller",
-      designation: "Founder",
-      social: [
-        {
-          icon: "fa-facebook",
-          url: "#"
-        },
-        {
-          icon: "fa-twitter",
-          url: "#"
-        },
-        {
-          icon: "fa-youtube-play",
-          url: "#"
-        }
+        // {
+        //   icon: "fa-facebook",
+        //   url: "#"
+        // },
+        // {
+        //   icon: "fa-twitter",
+        //   url: "#"
+        // },
+        // {
+        //   icon: "fa-youtube-play",
+        //   url: "#"
+        // }
       ]
     }
   ]
@@ -714,7 +695,7 @@ export const AboutThreeData = {
 
 export const AboutFourData = {
   blockTitle: {
-    title: "We are trusted by more than <span>8900</span> clients",
+    title: "Trusted by our initial clients for <span>reliable</span> solutions.",
     text1:
       "Freezelines Services India Pvt Ltd is a trusted and established provider of comprehensive chiller services, repair, and spare parts supply. With a strong commitment to excellence and a team of highly trained engineers, we have been serving the cooling needs of industries across India for several years.",
     text2:
