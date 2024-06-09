@@ -3,6 +3,9 @@ import Head from "next/head";
 import { Link as ScrollLink } from "react-scroll";
 import MobileMenu from "./mobile-menu";
 import { MenuContext } from "@/context/menu-context";
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+import Script from 'next/script';
+import AdSense from "./AdSense";
 
 const Layout = ({ PageTitle, children }) => {
   const [scrollTop, setScrollTop] = useState(false);
@@ -22,6 +25,14 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
 
+  useEffect(() => {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error(e);
+    }
+  }, []);
+
   return (
     <Fragment>
       <Head>
@@ -29,7 +40,20 @@ const Layout = ({ PageTitle, children }) => {
           {PageTitle} - Freezelines Services India Pvt.Ltd. - Heating & Air Conditioning Services NextJS
           Template{" "}
         </title>
+        
       </Head>
+      {/* <Script
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        onLoad={() => {
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: process.env.NEXT_PUBLIC_ADSENSE_PUB_ID,
+            enable_page_level_ads: true,
+          });
+        }}
+      /> */}
+      <GoogleAnalytics />
+      <AdSense/>
       <div id="wrapper">{children}</div>
 
       {true === menuStatus ? <MobileMenu /> : null}
