@@ -12,6 +12,7 @@ import "@/css/fontello.css";
 import "@/css/style.css";
 import "@/css/responsive.css";
 import "@/css/modern-styles.css";
+import "@/css/mobile-responsive-fixes.css";
 import {useEffect} from 'react';
 
 import TagManager from 'react-gtm-module';

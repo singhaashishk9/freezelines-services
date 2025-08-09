@@ -14,7 +14,12 @@ import AboutTwo from "@/components/about-two";
 const About = () => {
   return (
     <MenuContextProvider>
-      <Layout PageTitle="About Page">
+      <Layout 
+        PageTitle="About Us" 
+        metaDescription="Learn about Freezelines Services India Pvt Ltd - A trusted provider of comprehensive chiller services, repair, and HVAC solutions. Serving industries across India with certified professionals and 15+ years experience."
+        metaKeywords="about Freezelines Services, HVAC company India, chiller services company, air conditioning experts, heating cooling specialists, commercial HVAC solutions, industrial chiller maintenance"
+        canonicalUrl="https://www.freezelinesservices.com/about"
+      >
         <HeaderOne />
         <PageHeader title="About Us" name="About" />
         <AboutFour />

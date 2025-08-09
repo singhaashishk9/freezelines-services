@@ -19,6 +19,11 @@ const HeaderOne = () => {
   const handleMenuClick = (e) => {
     e.preventDefault();
     updateMenuStatus(!menuStatus);
+    
+    // Toggle body overflow for mobile menu
+    if (typeof window !== 'undefined') {
+      document.body.classList.toggle('mobile-menu-open', !menuStatus);
+    }
   };
 
   useEffect(() => {
@@ -67,9 +72,10 @@ const HeaderOne = () => {
           <div className="main_menu_area__left">
             <Logo size="default" />
             <button 
-              className="mobile-menu__toggler" 
+              className={`mobile-menu__toggler ${menuStatus ? 'active' : ''}`}
               onClick={handleMenuClick}
               aria-label="Toggle mobile menu"
+              aria-expanded={menuStatus}
             >
               <span className="burger-line"></span>
               <span className="burger-line"></span>

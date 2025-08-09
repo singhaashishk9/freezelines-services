@@ -9,9 +9,14 @@ const MobileMenu = () => {
   const handleMenuClick = (e) => {
     e.preventDefault();
     updateMenuStatus(!menuStatus);
+    
+    // Remove body overflow class when closing menu
+    if (typeof window !== 'undefined') {
+      document.body.classList.remove('mobile-menu-open');
+    }
   };
   return (
-    <div className="mobile-menu animated fadeInLeft">
+    <div className={`mobile-menu ${menuStatus ? 'active' : ''}`}>
       <div className="mobile-menu__overlay" onClick={handleMenuClick}></div>
       <div className="mobile-menu__inner">
         <div className="mobile-menu__top">
@@ -32,7 +37,7 @@ const MobileMenu = () => {
                     undefined !== links.subItems ? "menu-item-has-children" : ""
                   }`}
                 >
-                  <Link href={links.url}>{links.name}</Link>
+                  <Link href={links.url} onClick={handleMenuClick}>{links.name}</Link>
                   {undefined !== links.subItems ? (
                     <Fragment>
                       <button
@@ -54,7 +59,7 @@ const MobileMenu = () => {
                       <ul className="sub-menu">
                         {links.subItems.map((subLinks, index) => (
                           <li key={index}>
-                            <Link href={subLinks.url}>{subLinks.name}</Link>
+                            <Link href={subLinks.url} onClick={handleMenuClick}>{subLinks.name}</Link>
                           </li>
                         ))}
                       </ul>

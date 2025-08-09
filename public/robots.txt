@@ -1,0 +1,23 @@
+# Robots.txt for Freezelines Services India Pvt Ltd
+# https://www.freezelinesservices.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.freezelinesservices.com/sitemap.xml
+
+# Disallow crawling of specific file types that aren't useful for SEO
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+
+# Allow all crawlers to access CSS and JS files for proper rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /_next/static/
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1

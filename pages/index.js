@@ -18,7 +18,12 @@ import ContactOne from "@/components/contact-one";
 const HomeOne = () => {
   return (
     <MenuContextProvider>
-      <Layout PageTitle="Home Page">
+      <Layout 
+        PageTitle="Home" 
+        metaDescription="Freezelines Services India Pvt Ltd - Leading provider of professional HVAC, chiller services, repair, and maintenance across India. Get expert solutions for air conditioning, heating, and cooling systems with 24/7 emergency service."
+        metaKeywords="HVAC services India, chiller repair, air conditioning installation, heating services, cooling systems maintenance, emergency HVAC repair, commercial HVAC, industrial cooling, Thane Maharashtra"
+        canonicalUrl="https://www.freezelinesservices.com/"
+      >
         <HeaderOne />
         <SliderOne />
         <FeatureOne />

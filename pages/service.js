@@ -12,7 +12,12 @@ import SponsorOne from "@/components/sponsor-one";
 const Service = () => {
   return (
     <MenuContextProvider>
-      <Layout PageTitle="Service Page">
+      <Layout 
+        PageTitle="Our Services" 
+        metaDescription="Comprehensive HVAC services by Freezelines Services India Pvt Ltd. Offering chiller maintenance, air conditioning installation, pump & motor repair, adiabatic system installation, and 24/7 emergency services across India."
+        metaKeywords="HVAC services, chiller maintenance, air conditioning installation, pump motor repair, adiabatic system installation, emergency HVAC repair, commercial cooling services, industrial HVAC maintenance"
+        canonicalUrl="https://www.freezelinesservices.com/service"
+      >
         <HeaderOne />
         <PageHeader title="Service" name="Service" />
         <ServiceInfo />

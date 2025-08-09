@@ -10,7 +10,12 @@ import ServiceDetails from "@/components/service-details";
 const ServiceDetailsPage = () => {
   return (
     <MenuContextProvider>
-      <Layout PageTitle="Service Details">
+      <Layout 
+        PageTitle="Service Details" 
+        metaDescription="Detailed information about professional HVAC services from Freezelines Services India Pvt Ltd. Learn about our chiller maintenance, air conditioning installation, repair services, and technical specifications."
+        metaKeywords="service details, HVAC service specifications, chiller maintenance details, air conditioning installation process, repair service information, technical HVAC services"
+        canonicalUrl="https://www.freezelinesservices.com/service-details"
+      >
         <HeaderOne />
         <PageHeader title="Service Details" name="Service" />
         <ServiceDetails />

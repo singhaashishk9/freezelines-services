@@ -396,8 +396,8 @@ export const FooterInfo = [
   {
     icon: "icon-contact",
     tagLine: "Email",
-    text: "support@freezelinesservices.com",
-    url: "mailto:support@freezelinesservices.com"
+    text: "customersupport@freezelinesservices.com",
+    url: "mailto:customersupport@freezelinesservices.com"
   },
   {
     icon: "icon-clock",

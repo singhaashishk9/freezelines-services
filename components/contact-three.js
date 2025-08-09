@@ -24,7 +24,7 @@ const ContactThree = () => {
                 <div className="contact_location_map contact_location_call">
                   <span className="icon-contact_call"></span>
                   <p>
-                    support@freezelinesservices.com <br />
+                    customersupport@freezelinesservices.com <br />
                     +91 7798486823
                   </p>
                 </div>

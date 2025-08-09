@@ -10,7 +10,12 @@ import Footer from "@/components/footer";
 const Contact = () => {
   return (
     <MenuContextProvider>
-      <Layout PageTitle="Contact Page">
+      <Layout 
+        PageTitle="Contact Us" 
+        metaDescription="Contact Freezelines Services India Pvt Ltd for professional HVAC services. Get free quotes for chiller repair, air conditioning installation, and maintenance. Call +91 7798486823 or email us today."
+        metaKeywords="contact HVAC services, get free quote, chiller repair contact, air conditioning installation, HVAC maintenance inquiry, emergency service contact, Thane HVAC company"
+        canonicalUrl="https://www.freezelinesservices.com/contact"
+      >
         <HeaderOne />
         <PageHeader title="Contact Us" name="Contact" />
         <ContactThree />
