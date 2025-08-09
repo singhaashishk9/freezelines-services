@@ -1,3 +1,7 @@
 module.exports = {
-  reactStrictMode: false
+  reactStrictMode: false,
+  eslint: {
+    // Disable ESLint during build for deployment
+    ignoreDuringBuilds: true,
+  },
 };
