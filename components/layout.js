@@ -24,33 +24,25 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
 
-  useEffect(() => {
-    try {
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error(e);
-    }
-  }, []);
-
   return (
     <Fragment>
       <Head>
-        <title>
-          {PageTitle} - Freezelines Services India Pvt.Ltd. - Heating & Air Conditioning Services NextJS
-          Template{" "}
-        </title>
-        
+        <title>{`${PageTitle} - Freezelines Services India Pvt.Ltd. - Heating & Air Conditioning Services NextJS Template`}</title>
+        <meta name="description" content="Freezelines Services India Pvt Ltd - Professional HVAC, chiller services, repair, and maintenance across India" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Script
-        strategy="afterInteractive"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        onLoad={() => {
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: process.env.NEXT_PUBLIC_ADSENSE_PUB_ID,
-            enable_page_level_ads: true,
-          });
-        }}
-      />
+      {process.env.NEXT_PUBLIC_ADSENSE_PUB_ID && (
+        <Script
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          onLoad={() => {
+            (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: process.env.NEXT_PUBLIC_ADSENSE_PUB_ID,
+              enable_page_level_ads: true,
+            });
+          }}
+        />
+      )}
       <GoogleAnalytics />
       {/* <AdSense/> */}
       <div id="wrapper">{children}</div>

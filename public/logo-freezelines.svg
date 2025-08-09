@@ -1,0 +1,32 @@
+<svg width="320" height="100" viewBox="0 0 320 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Clean Typography Design - Text Only -->
+  <text x="20" y="30" font-family="Inter, sans-serif" font-size="28" font-weight="800" fill="#0f172a" letter-spacing="-0.8px">
+    FREEZELINES
+  </text>
+  <text x="20" y="52" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#475569" letter-spacing="0.6px">
+    SERVICES
+  </text>
+  
+  <!-- Elegant Accent Line -->
+  <line x1="20" y1="62" x2="180" y2="62" stroke="url(#accentGradient)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Professional Tagline -->
+  <text x="20" y="80" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#64748b" letter-spacing="0.3px">
+    PROFESSIONAL HVAC SOLUTIONS
+  </text>
+  
+  <!-- Modern Accent Elements -->
+  <circle cx="250" cy="25" r="3" fill="url(#accentGradient)" opacity="0.8"/>
+  <circle cx="265" cy="35" r="2" fill="#06b6d4" opacity="0.6"/>
+  <rect x="275" y="20" width="8" height="2" rx="1" fill="url(#accentGradient)" opacity="0.7"/>
+  
+  <!-- Enhanced Gradients -->
+  <defs>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#42A5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

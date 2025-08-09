@@ -27,16 +27,39 @@ const SliderOne = () => {
 
               <Container>
                 <Row>
-                  <Col lg="6">
-                    <p className="main-slider__subtext">
-                      <span className="subtitle_number">0{index + 1}</span>{" "}
-                      {text}
-                    </p>
-                    <h1 className="main-slider__title">{title}</h1>
-                    <div className="slide_button">
-                      <Link href={url} className="btn-yellow">
-                        {button}
-                      </Link>
+                  <Col lg="7">
+                    <div className="hero-content">
+                      <div className="hero-badge">
+                        <span className="subtitle_number">0{index + 1}</span>
+                        <span className="badge-text">{text}</span>
+                      </div>
+                      <h1 className="main-slider__title">{title}</h1>
+                      <p className="hero-description">
+                        Professional HVAC solutions with cutting-edge technology and expert service delivery across India
+                      </p>
+                      <div className="hero-actions">
+                        <Link href={url} className="btn-yellow btn-modern">
+                          <span>{button}</span>
+                          <i className="fa fa-arrow-right"></i>
+                        </Link>
+                        <Link href="/about" className="btn-outline">
+                          Learn More
+                        </Link>
+                      </div>
+                      <div className="hero-stats">
+                        <div className="stat-item">
+                          <span className="stat-number">500+</span>
+                          <span className="stat-label">Projects Completed</span>
+                        </div>
+                        <div className="stat-item">
+                          <span className="stat-number">15+</span>
+                          <span className="stat-label">Years Experience</span>
+                        </div>
+                        <div className="stat-item">
+                          <span className="stat-number">24/7</span>
+                          <span className="stat-label">Support Available</span>
+                        </div>
+                      </div>
                     </div>
                   </Col>
                 </Row>

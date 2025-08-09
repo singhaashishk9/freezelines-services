@@ -1,7 +1,7 @@
 import React, { Fragment, useContext, useEffect, useState } from "react";
-import { Logo, NavLinksData, TopbarInfos, FooterBottomData } from "@/data";
+import { NavLinksData, TopbarInfos, FooterBottomData } from "@/data";
 import Link from "@/components/link";
-import Img from "@/components/img";
+import Logo from "@/components/logo";
 import { useRouter } from "next/router";
 import { MenuContext } from "@/context/menu-context";
 
@@ -65,12 +65,16 @@ const HeaderOne = () => {
       >
         <div className="container">
           <div className="main_menu_area__left">
-            <Link href="/">
-              <Img src={Logo.dark} alt="Awesome Image" layout="fixed" />
-            </Link>
-            <span className="mobile-menu__toggler" onClick={handleMenuClick}>
-              <i className="fa fa-bars"></i>
-            </span>
+            <Logo size="default" />
+            <button 
+              className="mobile-menu__toggler" 
+              onClick={handleMenuClick}
+              aria-label="Toggle mobile menu"
+            >
+              <span className="burger-line"></span>
+              <span className="burger-line"></span>
+              <span className="burger-line"></span>
+            </button>
           </div>
           <div className="main_menu_area__right">
             <nav className="main_menu_area__menu">
@@ -96,9 +100,12 @@ const HeaderOne = () => {
                 })}
               </ul>
             </nav>
-            <Link href="/contact" className="btn-yellow">
-              BOOK TODAY
-            </Link>
+            <div className="header-actions">
+              <Link href="/contact" className="btn-yellow btn-modern">
+                <span>Get Quote</span>
+                <i className="fa fa-arrow-right"></i>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

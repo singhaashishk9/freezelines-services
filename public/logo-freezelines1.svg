@@ -1,0 +1,78 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- FSI Logo recreated from reference image -->
+  <g transform="translate(40, 40) scale(0.6)">
+    
+    <!-- F Letter - Navy Blue with 3D effect -->
+    <g>
+      <!-- Main F face -->
+      <path d="M -50 -40 L -50 40 L -40 40 L -40 10 L -10 10 L -10 0 L -40 0 L -40 -25 L 0 -25 L 0 -40 Z" fill="#3A1A78"/>
+      
+      <!-- F top 3D edge -->
+      <path d="M -50 -40 L -45 -45 L 5 -45 L 0 -40 Z" fill="#2A0F5F"/>
+      
+      <!-- F right 3D edge -->
+      <path d="M 0 -40 L 5 -45 L 5 -30 L 0 -25 Z" fill="#2A0F5F"/>
+      
+      <!-- F middle bar 3D -->
+      <path d="M -10 10 L -5 5 L -5 -5 L -10 0 Z" fill="#2A0F5F"/>
+    </g>
+    
+    <!-- S Letter - Blue with white section and 3D effect -->
+    <g transform="translate(30, 0)">
+      <!-- Main S background -->
+      <path d="M -20 -40 L 20 -40 L 20 -25 L -5 -25 L -5 -10 L 20 -10 L 20 40 L -20 40 L -20 25 L 5 25 L 5 10 L -20 10 Z" fill="#1976D2"/>
+      
+      <!-- White middle section -->
+      <path d="M -15 -15 L 15 -15 L 15 15 L -15 15 Z" fill="white"/>
+      
+      <!-- Blue connector in white section -->
+      <path d="M -8 -8 L 8 -8 L 8 8 L -8 8 Z" fill="#1976D2"/>
+      
+      <!-- S right 3D edge -->
+      <path d="M 20 -40 L 25 -45 L 25 35 L 20 40 Z" fill="#1565C0"/>
+      
+      <!-- S bottom 3D edge -->
+      <path d="M -20 40 L -15 45 L 25 45 L 20 40 Z" fill="#0D47A1"/>
+      
+      <!-- S top 3D edge -->
+      <path d="M -20 -40 L -15 -45 L 25 -45 L 20 -40 Z" fill="#42A5F5"/>
+    </g>
+    
+    <!-- I Letter - Navy Blue with 3D effect -->
+    <g transform="translate(70, 0)">
+      <!-- Main I face -->
+      <path d="M -8 -40 L 8 -40 L 8 40 L -8 40 Z" fill="#3A1A78"/>
+      
+      <!-- I right 3D edge -->
+      <path d="M 8 -40 L 13 -45 L 13 35 L 8 40 Z" fill="#2A0F5F"/>
+      
+      <!-- I bottom 3D edge -->
+      <path d="M -8 40 L -3 45 L 13 45 L 8 40 Z" fill="#2A0F5F"/>
+      
+      <!-- I top 3D edge -->
+      <path d="M -8 -40 L -3 -45 L 13 -45 L 8 -40 Z" fill="#5E35B1"/>
+    </g>
+    
+  </g>
+  
+  <!-- Company Name with better spacing -->
+  <text x="120" y="30" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#0f172a" letter-spacing="-0.5px">
+    FREEZELINES
+  </text>
+  <text x="120" y="48" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#475569" letter-spacing="0.5px">
+    SERVICES
+  </text>
+  <line x1="120" y1="54" x2="200" y2="54" stroke="url(#accentGradient)" stroke-width="2" stroke-linecap="round"/>
+  <text x="120" y="66" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#64748b" letter-spacing="0.3px">
+    PROFESSIONAL HVAC SOLUTIONS
+  </text>
+  
+  <!-- Enhanced Gradients -->
+  <defs>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3A1A78;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#42A5F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

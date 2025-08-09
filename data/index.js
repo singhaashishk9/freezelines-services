@@ -130,25 +130,21 @@ export const SlideTwoData = [
 ];
 
 export const FeatureOneData = [
-  // {
-  //   icon: "icon-wallet",
-  //   title: "No Upfront Payments"
-  // },
   {
     icon: "icon-diploma",
-    title: "Satisfaction Guarantee"
+    title: "Certified Professionals"
   },
   {
     icon: "icon-big_clock",
-    title: "Emergency Service"
+    title: "24/7 Emergency Service"
   },
   {
     icon: "icon-handshake",
-    title: "Fixed Right Promise"
+    title: "100% Satisfaction Guaranteed"
   },
   {
     icon: "icon-mechanic",
-    title: "3 Years Experience"
+    title: "15+ Years Experience"
   }
 ];
 
